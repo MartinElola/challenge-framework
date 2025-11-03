@@ -5,6 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.sql.Time;
 import java.time.Duration;
 
 public class SeleniumVisibility {
@@ -38,4 +39,8 @@ public class SeleniumVisibility {
         return this;
     }
 
+    public SeleniumVisibility sleepSeconds(long seconds) throws InterruptedException {
+        Thread.sleep(seconds * 1000L);
+        return this;
+    }
 }

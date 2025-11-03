@@ -48,6 +48,10 @@ public class InventoryPageActions extends InventoryPageScreen {
 
     public void validarCantidadProductosCarrito(int cantidadProductos) {
         Selenium()
+                .sleepSeconds(5)
+                .perform();
+
+        Selenium()
                 .waitForElementToAppear(lblCantidadProductosCarrito, 30)
                 .assertText(lblCantidadProductosCarrito, String.valueOf(cantidadProductos))
                 .perform();

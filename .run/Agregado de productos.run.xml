@@ -1,0 +1,23 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Agregado de productos" type="TestNG">
+    <module name="challenge-crowdar" />
+    <shortenClasspath name="NONE" />
+    <option name="SUITE_NAME" value="" />
+    <option name="PACKAGE_NAME" value="runners" />
+    <option name="MAIN_CLASS_NAME" value="runners.TestRunner" />
+    <option name="GROUP_NAME" value="" />
+    <option name="TEST_OBJECT" value="CLASS" />
+    <option name="VM_PARAMETERS" value="-DCUCUMBER_FILTER_TAGS=@AgregadoProductos_5" />
+    <option name="PARAMETERS" value="" />
+    <option name="OUTPUT_DIRECTORY" value="" />
+    <option name="TEST_SEARCH_SCOPE">
+      <value defaultName="moduleWithDependencies" />
+    </option>
+    <option name="PROPERTIES_FILE" value="" />
+    <properties />
+    <listeners />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

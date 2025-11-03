@@ -137,6 +137,13 @@ public class SeleniumActions {
         return this;
     }
 
+    public SeleniumActions sleepSeconds(long seconds) {
+        substeps.add(new Substep(() -> {
+            visibilityActions.sleepSeconds(seconds);
+        }));
+        return this;
+    }
+
     //////////////////////////////////////////////////////////
     //////////////////////// Visits //////////////////////////
     //////////////////////////////////////////////////////////
